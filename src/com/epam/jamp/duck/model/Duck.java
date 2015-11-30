@@ -45,6 +45,36 @@ public abstract class Duck {
         }
     }
 
+    public void performSwim() {
+        if (swimBehavior != null) {
+            swimBehavior.swim();
+            swimmingNow = true;
+        } else {
+            //System.out.println("Duck can't swim.");
+            log.info("Duck can't swim.");
+        }
+    }
+
+    public void performWalk() {
+        if (walkBehavior != null) {
+            walkBehavior.walk();
+            swimmingNow = false;
+        } else {
+            //System.out.println("Duck can't walk.");
+            log.info("Duck can't walk.");
+        }
+    }
+
+    public void performFly() {
+        if (flyBehavior != null) {
+            flyBehavior.fly();
+            swimmingNow = false;
+        } else {
+            //System.out.println("Duck can't fly.");
+            log.info("Duck can't fly.");
+        }
+    }
+
     public String getName() {
         return name;
     }
@@ -83,36 +113,6 @@ public abstract class Duck {
 
     public void setWalkBehavior(WalkBehavior walkBehavior) {
         this.walkBehavior = walkBehavior;
-    }
-
-    public void performSwim() {
-        if (swimBehavior != null) {
-            swimBehavior.swim();
-            swimmingNow = true;
-        } else {
-            //System.out.println("Duck can't swim.");
-            log.info("Duck can't swim.");
-        }
-    }
-
-    public void performWalk() {
-        if (walkBehavior != null) {
-            walkBehavior.walk();
-            swimmingNow = false;
-        } else {
-            //System.out.println("Duck can't walk.");
-            log.info("Duck can't walk.");
-        }
-    }
-
-    public void performFly() {
-        if (flyBehavior != null) {
-            flyBehavior.fly();
-            swimmingNow = false;
-        } else {
-            //System.out.println("Duck can't fly.");
-            log.info("Duck can't fly.");
-        }
     }
 
     public abstract void display();

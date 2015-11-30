@@ -143,3 +143,19 @@
 2015-11-30 13:50:42,208 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
 2015-11-30 13:50:43,063 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
 2015-11-30 13:50:44,047 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:53:11,239 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:13,494 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped back.
+2015-11-30 13:53:16,006 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped left.
+2015-11-30 13:53:17,109 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped right.
+2015-11-30 13:53:34,388 [com.epam.jamp.behavior.impl.FillUpWithWater][] INFO - Duck has drunk.
+2015-11-30 13:53:39,796 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:40,692 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:41,580 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:42,276 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:42,972 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:43,636 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck gfnmgfh can't move. It's hungry.
+2015-11-30 13:53:45,132 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck gfnmgfh can't move. It's hungry.
+2015-11-30 13:53:46,340 [com.epam.jamp.behavior.impl.FillUpWithWater][] INFO - Duck has drunk.
+2015-11-30 13:53:48,547 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:49,028 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 13:53:50,459 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
