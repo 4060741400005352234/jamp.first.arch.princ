@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import java.io.BufferedReader;
 import java.io.IOException;
 
+// TODO devide this calss
 public class DuckController {
 
     public static final String EXIT_COMMAND = "EXIT";
