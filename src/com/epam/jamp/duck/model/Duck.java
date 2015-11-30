@@ -10,6 +10,9 @@ public abstract class Duck {
     protected FlapBehavior flapBehavior;
     protected FillUpEnergyBehavior eatBehavior;
     protected FillUpEnergyBehavior drinkBehavior;
+    protected SwimBehavior swimBehavior;
+    protected FlyBehavior flyBehavior;
+    protected WalkBehavior walkBehavior;
 
     public Duck(String name) {
         this.name = name;
@@ -67,8 +70,44 @@ public abstract class Duck {
         this.drinkBehavior = drinkBehavior;
     }
 
+    public void setSwimBehavior(SwimBehavior swimBehavior) {
+        this.swimBehavior = swimBehavior;
+    }
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setWalkBehavior(WalkBehavior walkBehavior) {
+        this.walkBehavior = walkBehavior;
+    }
+
+    public void performSwim() {
+        if (swimBehavior != null) {
+            swimBehavior.swim();
+            swimmingNow = true;
+        } else {
+            System.out.println("Duck can't swim.");
+        }
+    }
+
+    public void performWalk() {
+        if (walkBehavior != null) {
+            walkBehavior.walk();
+            swimmingNow = false;
+        } else {
+            System.out.println("Duck can't walk.");
+        }
+    }
+
+    public void performFly() {
+        if (flyBehavior != null) {
+            flyBehavior.fly();
+            swimmingNow = false;
+        } else {
+            System.out.println("Duck can't fly.");
+        }
+    }
+
     public abstract void display();
-    public abstract void performSwim();
-    public abstract void performWalk();
-    public abstract void performFly();
 }

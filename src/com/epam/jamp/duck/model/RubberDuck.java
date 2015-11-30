@@ -24,25 +24,6 @@ public class RubberDuck extends MovableDuck {
     }
 
     @Override
-    public void performSwim() {
-        //System.out.println("Duck is on water.");
-        setSwimmingNow(true);
-        log.info("Duck " + getName() + " is swimming.");
-    }
-
-    @Override
-    public void performWalk() {
-        //System.out.println("I can't walk!");
-        log.info("Duck " + getName() + " can't walk.");
-    }
-
-    @Override
-    public void performFly() {
-        //System.out.println("I can't fly!");
-        log.info("Duck " + getName() + " can't fly.");
-    }
-
-    @Override
     public void display() {
         System.out.println("I'm rubber duck " + getName());
     }

@@ -123,3 +123,23 @@
 2015-11-30 09:59:00,789 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
 2015-11-30 09:59:01,548 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
 2015-11-30 09:59:03,361 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 13:49:53,607 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck DDD stepped forward.
+2015-11-30 13:49:54,995 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck DDD stepped back.
+2015-11-30 13:49:57,987 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck DDD stepped left.
+2015-11-30 13:49:59,138 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck DDD stepped right.
+2015-11-30 13:50:26,769 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-30 13:50:26,772 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg can make next step.
+2015-11-30 13:50:26,772 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg is not hungry.
+2015-11-30 13:50:29,632 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:30,376 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:30,984 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:31,632 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:32,424 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:33,329 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg is powered off. Feed her.
+2015-11-30 13:50:38,416 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg is powered off. Feed her.
+2015-11-30 13:50:41,056 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-30 13:50:41,056 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg can make next step.
+2015-11-30 13:50:41,056 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck fdfg is not hungry.
+2015-11-30 13:50:42,208 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:43,063 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.
+2015-11-30 13:50:44,047 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck fdfg stepped forward.

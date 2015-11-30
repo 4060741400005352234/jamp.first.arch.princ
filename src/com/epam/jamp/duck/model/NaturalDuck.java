@@ -30,27 +30,6 @@ public class NaturalDuck extends MovableDuck {
     }
 
     @Override
-    public void performSwim() {
-        setSwimmingNow(true);
-        //System.out.println("Duck is on water.");
-        log.info("Duck " + getName() + " is swimming.");
-    }
-
-    @Override
-    public void performWalk() {
-        setSwimmingNow(false);
-        //System.out.println("Duck is on a ground.");
-        log.info("Duck " + getName() + " is walking.");
-    }
-
-    @Override
-    public void performFly() {
-        setSwimmingNow(false);
-        //System.out.println("Duck is in the sky.");
-        log.info("Duck " + getName() + " is flying.");
-    }
-
-    @Override
     public void display() {
         System.out.println("I'm natural duck " + getName());
     }
