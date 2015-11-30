@@ -1,0 +1,113 @@
+2015-11-29 13:22:31,298 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is flying.
+2015-11-29 13:22:32,025 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is swimming.
+2015-11-29 13:22:37,345 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is walking.
+2015-11-29 13:22:47,345 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is swimming.
+2015-11-29 13:22:50,649 [com.epam.jamp.behavior.impl.FillUpWithWater][] INFO - Duck has drunk.
+2015-11-29 13:23:05,082 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is flying.
+2015-11-29 13:23:08,633 [com.epam.jamp.behavior.impl.FillUpWithFood][] INFO - Duck has eaten.
+2015-11-29 13:23:14,321 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA can't move. It's hungry.
+2015-11-29 13:23:19,049 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA can't move. It's hungry.
+2015-11-29 13:23:33,697 [com.epam.jamp.behavior.impl.FillUpWithFood][] INFO - Duck has eaten.
+2015-11-29 13:23:43,505 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is walking.
+2015-11-29 13:23:49,305 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA can't move. It's hungry.
+2015-11-29 13:24:21,128 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA is swimming.
+2015-11-29 13:24:23,177 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck AA can't move. It's hungry.
+2015-11-29 13:24:32,857 [com.epam.jamp.behavior.impl.FillUpWithWater][] INFO - Duck has drunk.
+2015-11-29 13:24:38,024 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-29 13:27:24,618 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck sd stepped forward.
+2015-11-29 13:27:28,376 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-29 13:27:41,402 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Nick stepped back.
+2015-11-29 13:27:49,688 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-29 13:27:57,675 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Nick stepped forward.
+2015-11-29 13:28:00,705 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Nick stepped back.
+2015-11-29 13:28:03,705 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Nick stepped left.
+2015-11-29 13:28:05,561 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Nick stepped right.
+2015-11-29 13:28:08,457 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Nick can't fly.
+2015-11-29 13:28:10,385 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-29 13:28:22,339 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped forward.
+2015-11-29 13:28:23,121 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped back.
+2015-11-29 13:28:23,905 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped left.
+2015-11-29 13:28:24,817 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped right.
+2015-11-29 13:28:25,673 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Tom is flying.
+2015-11-29 13:28:28,937 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Tom is swimming.
+2015-11-29 13:28:30,305 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Tom is walking.
+2015-11-29 13:28:38,841 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Tom is swimming.
+2015-11-29 13:28:40,272 [com.epam.jamp.behavior.impl.FillUpWithWater][] INFO - Duck has drunk.
+2015-11-29 13:29:21,177 [com.epam.jamp.behavior.impl.Flapping][] INFO - Duck is flapping.
+2015-11-29 13:29:23,281 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped forward.
+2015-11-29 13:29:26,721 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped back.
+2015-11-29 13:29:29,369 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped left.
+2015-11-29 13:29:30,641 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped right.
+2015-11-29 13:29:31,841 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck Tom stepped forward.
+2015-11-29 13:29:33,409 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck Tom can't move. It's hungry.
+2015-11-29 13:29:42,809 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-29 13:29:52,962 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:29:53,481 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped back.
+2015-11-29 13:29:54,137 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped left.
+2015-11-29 13:29:55,145 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped right.
+2015-11-29 13:29:56,009 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC can't fly.
+2015-11-29 13:29:59,641 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is swimming.
+2015-11-29 13:30:02,553 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC can't walk.
+2015-11-29 13:30:12,385 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-29 13:30:12,385 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC can make next step.
+2015-11-29 13:30:12,385 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is not hungry.
+2015-11-29 13:31:39,585 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:31:40,425 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped back.
+2015-11-29 13:31:41,041 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:31:42,577 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped back.
+2015-11-29 13:31:43,673 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:31:45,265 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is powered off. Feed her.
+2015-11-29 13:31:49,913 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is powered off. Feed her.
+2015-11-29 13:31:50,553 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is powered off. Feed her.
+2015-11-29 13:31:51,257 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is powered off. Feed her.
+2015-11-29 13:31:55,474 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-29 13:31:55,474 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC can make next step.
+2015-11-29 13:31:55,474 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck TIC is not hungry.
+2015-11-29 13:31:57,217 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:31:57,857 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck TIC stepped forward.
+2015-11-29 13:31:58,329 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 09:20:13,741 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck аа stepped forward.
+2015-11-30 09:20:14,490 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck аа stepped forward.
+2015-11-30 09:20:16,601 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck аа stepped forward.
+2015-11-30 09:20:17,322 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck аа stepped forward.
+2015-11-30 09:20:18,074 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck аа stepped forward.
+2015-11-30 09:20:19,178 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:19,178 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:19,178 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:19,178 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:19,178 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:19,250 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 09:20:30,363 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:20:31,105 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:20:31,929 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:20:32,801 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:20:33,897 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:20:34,921 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:34,921 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:34,921 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:34,921 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:34,921 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:20:36,105 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 is powered off. Feed her.
+2015-11-30 09:20:37,249 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 is powered off. Feed her.
+2015-11-30 09:20:38,089 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 is powered off. Feed her.
+2015-11-30 09:20:41,609 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-30 09:20:41,609 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 can make next step.
+2015-11-30 09:20:41,609 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 is not hungry.
+2015-11-30 09:20:59,807 [com.epam.jamp.behavior.impl.Flapping][] INFO - Duck is flapping.
+2015-11-30 09:21:03,188 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 09:24:08,725 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck dd stepped forward.
+2015-11-30 09:24:09,548 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck dd stepped forward.
+2015-11-30 09:24:10,259 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck dd stepped forward.
+2015-11-30 09:24:11,036 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck dd stepped back.
+2015-11-30 09:24:12,171 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck dd stepped left.
+2015-11-30 09:24:12,955 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:24:12,955 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:24:12,955 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:24:12,955 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:24:12,955 [com.epam.jamp.behavior.impl.Whistling][] INFO -  Duck is whistling.
+2015-11-30 09:24:15,307 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck dd can't fly.
+2015-11-30 09:24:18,074 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck dd is powered off. Feed her.
+2015-11-30 09:24:20,786 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck dd is swimming.
+2015-11-30 09:24:22,634 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 09:32:50,892 [com.epam.jamp.main.DuckController][] ERROR - java.lang.IllegalArgumentException: Unknown duck type.
+2015-11-30 09:32:50,895 [com.epam.jamp.main.Main][] INFO - All work done.
