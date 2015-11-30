@@ -1,8 +1,8 @@
 package com.epam.jamp.duck.factrory;
 
-import com.epam.jamp.duck.model.Duck;
+import com.epam.jamp.duck.model.MovableDuck;
 
 public interface DuckFactory {
 
-    public Duck createDuck(String name, String type);
+    public MovableDuck createDuck(String name, String type);
 }

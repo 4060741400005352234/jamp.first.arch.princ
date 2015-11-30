@@ -9,13 +9,13 @@ public abstract class Duck {
 
     private String name;
     private boolean swimmingNow;
-    protected QuackBehavior quackBehavior;
-    protected FlapBehavior flapBehavior;
+    private QuackBehavior quackBehavior;
+    private FlapBehavior flapBehavior;
+    private SwimBehavior swimBehavior;
+    private FlyBehavior flyBehavior;
+    private WalkBehavior walkBehavior;
     protected FillUpEnergyBehavior eatBehavior;
     protected FillUpEnergyBehavior drinkBehavior;
-    protected SwimBehavior swimBehavior;
-    protected FlyBehavior flyBehavior;
-    protected WalkBehavior walkBehavior;
 
     public Duck(String name) {
         this.name = name;

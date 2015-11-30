@@ -159,3 +159,21 @@
 2015-11-30 13:53:48,547 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
 2015-11-30 13:53:49,028 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
 2015-11-30 13:53:50,459 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck gfnmgfh stepped forward.
+2015-11-30 15:55:45,261 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped forward.
+2015-11-30 15:55:47,108 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped back.
+2015-11-30 15:55:47,836 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped left.
+2015-11-30 15:55:48,467 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped right.
+2015-11-30 15:55:49,091 [com.epam.jamp.duck.model.Duck][] INFO - Duck can't fly.
+2015-11-30 15:55:54,179 [com.epam.jamp.duck.model.Duck][] INFO - Duck can't walk.
+2015-11-30 15:55:57,747 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-30 15:55:57,747 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck FILL can make next step.
+2015-11-30 15:55:57,747 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck FILL is not hungry.
+2015-11-30 15:55:59,354 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped forward.
+2015-11-30 15:55:59,971 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped back.
+2015-11-30 15:56:00,387 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped left.
+2015-11-30 15:56:01,227 [com.epam.jamp.duck.model.Duck][] INFO - Duck can't fly.
+2015-11-30 15:56:01,843 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck FILL stepped right.
+2015-11-30 15:56:02,635 [com.epam.jamp.duck.model.Duck][] INFO - Duck can't walk.
+2015-11-30 15:56:03,402 [com.epam.jamp.behavior.impl.FillUpWithBattery][] INFO - Duck's batteries are changed.
+2015-11-30 15:56:03,402 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck FILL can make next step.
+2015-11-30 15:56:03,403 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck FILL is not hungry.

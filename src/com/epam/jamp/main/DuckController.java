@@ -64,7 +64,7 @@ public class DuckController {
     }
 
     private MovableDuck createDuck(String name, String type) {
-        return (MovableDuck) duckFactory.createDuck(name, type);
+        return duckFactory.createDuck(name, type);
     }
 
     public void controlDuck() throws IOException {
