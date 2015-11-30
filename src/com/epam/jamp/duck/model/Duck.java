@@ -1,8 +1,11 @@
 package com.epam.jamp.duck.model;
 
 import com.epam.jamp.behavior.*;
+import org.apache.log4j.Logger;
 
 public abstract class Duck {
+
+    private static Logger log = Logger.getLogger(Duck.class);
 
     private String name;
     private boolean swimmingNow;
@@ -87,7 +90,8 @@ public abstract class Duck {
             swimBehavior.swim();
             swimmingNow = true;
         } else {
-            System.out.println("Duck can't swim.");
+            //System.out.println("Duck can't swim.");
+            log.info("Duck can't swim.");
         }
     }
 
@@ -96,7 +100,8 @@ public abstract class Duck {
             walkBehavior.walk();
             swimmingNow = false;
         } else {
-            System.out.println("Duck can't walk.");
+            //System.out.println("Duck can't walk.");
+            log.info("Duck can't walk.");
         }
     }
 
@@ -105,7 +110,8 @@ public abstract class Duck {
             flyBehavior.fly();
             swimmingNow = false;
         } else {
-            System.out.println("Duck can't fly.");
+            //System.out.println("Duck can't fly.");
+            log.info("Duck can't fly.");
         }
     }
 
