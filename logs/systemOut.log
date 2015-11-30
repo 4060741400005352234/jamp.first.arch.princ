@@ -111,3 +111,15 @@
 2015-11-30 09:24:22,634 [com.epam.jamp.main.Main][] INFO - All work done.
 2015-11-30 09:32:50,892 [com.epam.jamp.main.DuckController][] ERROR - java.lang.IllegalArgumentException: Unknown duck type.
 2015-11-30 09:32:50,895 [com.epam.jamp.main.Main][] INFO - All work done.
+2015-11-30 09:58:47,728 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:58:48,037 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:58:48,301 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:58:49,029 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:58:49,765 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:58:50,405 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 can't move. It's hungry.
+2015-11-30 09:58:52,478 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 can't move. It's hungry.
+2015-11-30 09:58:54,141 [com.epam.jamp.duck.model.RubberDuck][] INFO - Duck 1 can't move. It's hungry.
+2015-11-30 09:58:59,813 [com.epam.jamp.behavior.impl.FillUpWithFood][] INFO - Duck has eaten.
+2015-11-30 09:59:00,789 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:59:01,548 [com.epam.jamp.duck.model.MovableDuck][] INFO - Duck 1 stepped forward.
+2015-11-30 09:59:03,361 [com.epam.jamp.main.Main][] INFO - All work done.
