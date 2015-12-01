@@ -6,8 +6,8 @@ public class RubberDuck extends MovableDuck {
 
     private static Logger log = Logger.getLogger(RubberDuck.class);
 
-    private static final int STEP_COUNT_TO_HUNGRY = 4;
-    private int stepCount;
+    private static final int STEP_COUNT_TO_HUNGRY = 2;
+    private double stepCount;
     private boolean poweredOff;
 
     public RubberDuck(String name) {
@@ -31,20 +31,18 @@ public class RubberDuck extends MovableDuck {
 
     @Override
     protected void nextStep() {
-        ++stepCount;
+        stepCount = stepCount + getStepLength();
     }
 
     @Override
     protected boolean nextStepAvailable() {
-        return stepCount <= STEP_COUNT_TO_HUNGRY;
+        return stepCount < STEP_COUNT_TO_HUNGRY;
     }
 
     @Override
     protected void sayHungry() {
         if (!poweredOff) {
-            for (int i = 0; i < 5; ++i) {
-                performQuack();
-            }
+            performQuack();
             poweredOff = true;
         } else {
             //System.out.println("Duck is powered off. Feed her.");
@@ -53,9 +51,14 @@ public class RubberDuck extends MovableDuck {
     }
 
     @Override
+    protected double getStepLength() {
+        return 0.5;
+    }
+
+    @Override
     public void allowNextMovements() {
         stepCount = 0;
-        poweredOff = true;
+        poweredOff = false;
         log.info("Duck " + getName() + " can make next step.");
     }
 }

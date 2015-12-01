@@ -12,47 +12,55 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
     }
 
     @Override
-    public void stepForward() {
+    public double stepForward() {
         if (nextStepAvailable()) {
             //System.out.println("Step forward.");
             log.info("Duck " + getName() + " stepped forward.");
             nextStep();
+            return getStepLength();
         } else {
             sayHungry();
         }
+        return 0;
     }
 
     @Override
-    public void stepBack() {
+    public double stepBack() {
         if (nextStepAvailable()) {
             //System.out.println("Step back.");
             log.info("Duck " + getName() + " stepped back.");
             nextStep();
+            return getStepLength();
         } else {
             sayHungry();
         }
+        return 0;
     }
 
     @Override
-    public void stepRight() {
+    public double stepRight() {
         if (nextStepAvailable()) {
             //System.out.println("Step to right.");
             log.info("Duck " + getName() + " stepped right.");
             nextStep();
+            return getStepLength();
         } else {
             sayHungry();
         }
+        return 0;
     }
 
     @Override
-    public void stepLeft() {
+    public double stepLeft() {
         if (nextStepAvailable()) {
             //System.out.println("Step to left.");
             log.info("Duck " + getName() + " stepped left.");
             nextStep();
+            return getStepLength();
         } else {
             sayHungry();
         }
+        return 0;
     }
 
     @Override
@@ -82,4 +90,5 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
     protected abstract void nextStep();
     protected abstract boolean nextStepAvailable();
     protected abstract void sayHungry();
+    protected abstract double getStepLength();
 }

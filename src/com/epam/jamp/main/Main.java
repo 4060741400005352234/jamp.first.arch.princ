@@ -16,7 +16,7 @@ public class Main {
 //        String[][] labyrinth = LabyrinthReader.readFromFile("lab.txt");
 //        System.out.println(Arrays.deepToString(labyrinth));
 
-        DuckController duckController = new DuckController(new BufferedReader(new InputStreamReader(System.in)), new MovableDuckFactory());
+        DuckController duckController = new DuckController(new MovableDuckFactory());
         duckController.performControl();
 
     }

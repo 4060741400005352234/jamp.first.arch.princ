@@ -2,12 +2,14 @@ package com.epam.jamp.main;
 
 import com.epam.jamp.duck.factrory.DuckFactory;
 import com.epam.jamp.duck.model.MovableDuck;
+import com.epam.jamp.labyrinth.Maze;
 import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
-// TODO devide this calss and rename
+// TODO devide this class and rename
 public class DuckController {
 
     public static final String EXIT_COMMAND = "EXIT";
@@ -19,19 +21,22 @@ public class DuckController {
     private MovableDuck duck;
     private BufferedReader bufferedReader;
 
-    public DuckController(BufferedReader bufferedReader, DuckFactory duckFactory) {
-        this.bufferedReader = bufferedReader;
+    public DuckController(DuckFactory duckFactory) {
         this.duckFactory = duckFactory;
     }
 
     public void performControl() {
         try {
+            bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String duckName = getDuckName();
             String duckType = getDucType();
             duck = createDuck(duckName, duckType);
             duck.display();
 
-            controlDuck();
+            Maze maze = new Maze(duck);
+            maze.solveMaze();
+
+            //controlDuck();
 
         } catch (Exception e) {
             log.error(e);

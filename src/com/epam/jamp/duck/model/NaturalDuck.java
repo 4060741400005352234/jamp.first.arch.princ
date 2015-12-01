@@ -6,7 +6,7 @@ public class NaturalDuck extends MovableDuck {
 
     private static Logger log = Logger.getLogger(RubberDuck.class);
 
-    private static final int STEP_COUNT_TO_HUNGRY = 4;
+    private static final int STEP_COUNT_TO_HUNGRY = 2;
     private int stepCount;
 
     public NaturalDuck(String name) {
@@ -20,13 +20,18 @@ public class NaturalDuck extends MovableDuck {
 
     @Override
     protected boolean nextStepAvailable() {
-        return stepCount <= STEP_COUNT_TO_HUNGRY;
+        return stepCount < STEP_COUNT_TO_HUNGRY;
     }
 
     @Override
     protected void sayHungry() {
         //System.out.println("I can't move. I'm hungry.");
         log.info("Duck " + getName() + " can't move. It's hungry.");
+    }
+
+    @Override
+    protected double getStepLength() {
+        return 1;
     }
 
     @Override

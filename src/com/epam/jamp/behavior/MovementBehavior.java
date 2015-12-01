@@ -2,13 +2,13 @@ package com.epam.jamp.behavior;
 
 public interface MovementBehavior {
 
-    public void stepForward();
+    public double stepForward();
 
-    public void stepBack();
+    public double stepBack();
 
-    public void stepRight();
+    public double stepRight();
 
-    public void stepLeft();
+    public double stepLeft();
 
     public void allowNextMovements();
 }

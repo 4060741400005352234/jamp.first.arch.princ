@@ -9,7 +9,7 @@ public class Whistling implements QuackBehavior {
 
     @Override
     public void quack() {
-        //System.out.println("Duck is whistling.");
-        log.info(" Duck is whistling.");
+        //System.out.println("Duck is whistling 5 times.");
+        log.info(" Duck is whistling 5 times.");
     }
 }
