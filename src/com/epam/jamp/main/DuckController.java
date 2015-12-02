@@ -7,7 +7,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// TODO devide this class and rename
 public class DuckController {
 
     private static Logger log = Logger.getLogger(DuckController.class);
