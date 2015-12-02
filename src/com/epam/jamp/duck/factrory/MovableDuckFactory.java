@@ -13,25 +13,23 @@ public class MovableDuckFactory implements DuckFactory {
     @Override
     public MovableDuck createDuck(String name, String type) {
         DuckType duckType = DuckType.resolveType(type);
-        switch (duckType) {
-            case NATURAL_DUCK:
-                creator = new NaturalDuckCreator();
-                break;
-            case RUBBER_DUCK:
-                creator = new RubberDuckCreator();
-                break;
-        }
-        return creator.createDuck(name);
+        return duckType != null ? duckType.getDuckCreator().createDuck(name) : null;
     }
 
     private enum DuckType {
-        RUBBER_DUCK("1"),
-        NATURAL_DUCK("2");
+        RUBBER_DUCK("1", new RubberDuckCreator()),
+        NATURAL_DUCK("2", new NaturalDuckCreator());
 
         private String duckType;
+        private DuckCreator duckCreator;
 
-        private DuckType(String duckType) {
+        private DuckType(String duckType, DuckCreator duckCreator) {
             this.duckType = duckType;
+            this.duckCreator = duckCreator;
+        }
+
+        public DuckCreator getDuckCreator() {
+            return duckCreator;
         }
 
         public static DuckType resolveType(String duckType) {
