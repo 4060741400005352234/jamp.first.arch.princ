@@ -20,9 +20,7 @@ public class DuckController {
     }
 
     public void performControl() throws IOException {
-        bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         controlDuck();
-        System.out.println(bufferedReader.ready());
     }
 
     public void controlDuck() throws IOException {
