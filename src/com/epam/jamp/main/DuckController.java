@@ -19,20 +19,10 @@ public class DuckController {
         this.bufferedReader = bufferedReader;
     }
 
-    public void performControl() {
-        try {
-            bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-            controlDuck();
-            System.out.println(bufferedReader.ready());
-        } catch (Exception e) {
-            log.error(e);
-        } finally {
-            try {
-                bufferedReader.close();
-            } catch (IOException e) {
-                log.error(e);
-            }
-        }
+    public void performControl() throws IOException {
+        bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        controlDuck();
+        System.out.println(bufferedReader.ready());
     }
 
     public void controlDuck() throws IOException {
