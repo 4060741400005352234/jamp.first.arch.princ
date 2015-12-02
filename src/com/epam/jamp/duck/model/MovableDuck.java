@@ -86,6 +86,7 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
             System.out.println("I can't drink.");
         }
     }
+
     protected double getStepLength() {
         return 1;
     }
