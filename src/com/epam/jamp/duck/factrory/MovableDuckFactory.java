@@ -8,8 +8,6 @@ import com.epam.jamp.duck.model.MovableDuck;
 
 public class MovableDuckFactory implements DuckFactory {
 
-    private DuckCreator creator;
-
     @Override
     public MovableDuck createDuck(String name, String type) {
         DuckType duckType = DuckType.resolveType(type);

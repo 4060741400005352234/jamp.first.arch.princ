@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00e337c-a26a-4656-a165-7312ed337e2d" name="Default" comment="6st day. Maze solving">
+      <change type="DELETED" beforePath="D:\GIT\gmail\jamp.first.arch.princ\out\production\jamp.first.arch.princ\com\epam\jamp\duck\factrory\MovableDuckFactory$1.class" afterPath="" />
       <change type="DELETED" beforePath="D:\GIT\gmail\jamp.first.arch.princ\out\production\jamp.first.arch.princ\com\epam\jamp\labyrinth\LabyrinthReader.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/Duck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/Duck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$1.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$1.class" />
@@ -9,6 +10,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/Main.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/MovableDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/MovableDuck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory$DuckType.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory$DuckType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/NaturalDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/NaturalDuck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/RubberDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/RubberDuck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/behavior/impl/Whistling.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/behavior/impl/Whistling.class" />
@@ -73,11 +76,11 @@
       <file leaf-file-name="MovableDuckFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5810364" vertical-offset="0" max-vertical-offset="907">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.26240352" vertical-offset="0" max-vertical-offset="907">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -904,7 +907,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449060274434</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="6st day. Maze solving">
+      <created>1449062600309</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1449062600309</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1493,11 +1502,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5810364" vertical-offset="0" max-vertical-offset="907">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.26240352" vertical-offset="0" max-vertical-offset="907">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
