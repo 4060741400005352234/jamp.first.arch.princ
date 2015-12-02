@@ -4,9 +4,10 @@ import org.apache.log4j.Logger;
 
 public class NaturalDuck extends MovableDuck {
 
+    private static final int STEP_COUNT_TO_HUNGRY = 10;
+
     private static Logger log = Logger.getLogger(RubberDuck.class);
 
-    private static final int STEP_COUNT_TO_HUNGRY = 2;
     private int stepCount;
 
     public NaturalDuck(String name) {

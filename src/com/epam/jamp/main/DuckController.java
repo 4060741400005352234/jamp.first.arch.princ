@@ -1,8 +1,6 @@
 package com.epam.jamp.main;
 
-import com.epam.jamp.duck.factrory.DuckFactory;
 import com.epam.jamp.duck.model.MovableDuck;
-import com.epam.jamp.labyrinth.Maze;
 import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
@@ -12,32 +10,21 @@ import java.io.InputStreamReader;
 // TODO devide this class and rename
 public class DuckController {
 
-    public static final String EXIT_COMMAND = "EXIT";
-    public static final String EMPTY_STRING = "";
-
     private static Logger log = Logger.getLogger(DuckController.class);
 
-    private DuckFactory duckFactory;
     private MovableDuck duck;
     private BufferedReader bufferedReader;
 
-    public DuckController(DuckFactory duckFactory) {
-        this.duckFactory = duckFactory;
+    public DuckController(MovableDuck duck, BufferedReader bufferedReader) {
+        this.duck = duck;
+        this.bufferedReader = bufferedReader;
     }
 
     public void performControl() {
         try {
             bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-            String duckName = getDuckName();
-            String duckType = getDucType();
-            duck = createDuck(duckName, duckType);
-            duck.display();
-
-            Maze maze = new Maze(duck);
-            maze.solveMaze();
-
-            //controlDuck();
-
+            controlDuck();
+            System.out.println(bufferedReader.ready());
         } catch (Exception e) {
             log.error(e);
         } finally {
@@ -49,35 +36,11 @@ public class DuckController {
         }
     }
 
-    private String getDuckName() throws IOException {
-        String name = null;
-        while (name == null) {
-            System.out.println("Enter duck name:");
-            name = readDataFromConsole();
-        }
-        return name;
-    }
-
-    private String getDucType() throws IOException {
-        System.out.println("Choice duck type:");
-        System.out.println("1 - Rubber duck");
-        System.out.println("2 - Natural duck");
-        String duckType = null;
-        while (duckType == null) {
-            duckType = readDataFromConsole();
-        }
-        return duckType;
-    }
-
-    private MovableDuck createDuck(String name, String type) {
-        return duckFactory.createDuck(name, type);
-    }
-
     public void controlDuck() throws IOException {
         showCommandMenu();
         String command;
         while ((command = bufferedReader.readLine()) != null && command.length() != 0) {
-            if (EXIT_COMMAND.equalsIgnoreCase(command.trim())) {
+            if (Constant.EXIT_COMMAND.equalsIgnoreCase(command.trim())) {
                 System.exit(1);
             }
             performCommand(command);
@@ -121,14 +84,6 @@ public class DuckController {
                 duck.performFlap();
                 break;
         }
-    }
-
-    private String readDataFromConsole() throws IOException {
-        String command;
-        do {
-            command = bufferedReader.readLine();
-        } while (command == null || EMPTY_STRING.equalsIgnoreCase(command));
-        return command;
     }
 
     private void showCommandMenu() {

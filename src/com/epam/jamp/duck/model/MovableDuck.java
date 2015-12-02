@@ -65,8 +65,8 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
 
     @Override
     public void performEat() {
-        if (eatBehavior != null && !isSwimmingNow()) {
-            eatBehavior.fillUp();
+        if (getEatBehavior() != null && !isSwimmingNow()) {
+            getEatBehavior().fillUp();
             allowNextMovements();
         } else {
             System.out.println("I can't fill up while I swimming.");
@@ -75,9 +75,9 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
 
     @Override
     public void performDrink() {
-        if (drinkBehavior != null) {
+        if (getDrinkBehavior() != null) {
             if (isSwimmingNow()) {
-                drinkBehavior.fillUp();
+                getDrinkBehavior().fillUp();
                 allowNextMovements();
             } else {
                 System.out.println("I can't drink now. I can drink only on water.");
@@ -86,9 +86,11 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
             System.out.println("I can't drink.");
         }
     }
+    protected double getStepLength() {
+        return 1;
+    }
 
     protected abstract void nextStep();
     protected abstract boolean nextStepAvailable();
     protected abstract void sayHungry();
-    protected abstract double getStepLength();
 }

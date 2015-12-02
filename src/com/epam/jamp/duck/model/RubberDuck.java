@@ -4,9 +4,10 @@ import org.apache.log4j.Logger;
 
 public class RubberDuck extends MovableDuck {
 
+    private static final int STEP_COUNT_TO_HUNGRY = 10;
+
     private static Logger log = Logger.getLogger(RubberDuck.class);
 
-    private static final int STEP_COUNT_TO_HUNGRY = 2;
     private double stepCount;
     private boolean poweredOff;
 
@@ -16,8 +17,8 @@ public class RubberDuck extends MovableDuck {
 
     @Override
     public void performEat() {
-        if (eatBehavior != null) {
-            eatBehavior.fillUp();
+        if (getEatBehavior() != null) {
+            getEatBehavior().fillUp();
             allowNextMovements();
             log.info("Duck " + getName() + " is not hungry.");
         }
@@ -31,7 +32,7 @@ public class RubberDuck extends MovableDuck {
 
     @Override
     protected void nextStep() {
-        stepCount = stepCount + getStepLength();
+        stepCount += getStepLength();
     }
 
     @Override

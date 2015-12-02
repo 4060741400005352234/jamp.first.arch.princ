@@ -14,8 +14,8 @@ public abstract class Duck {
     private SwimBehavior swimBehavior;
     private FlyBehavior flyBehavior;
     private WalkBehavior walkBehavior;
-    protected FillUpEnergyBehavior eatBehavior;
-    protected FillUpEnergyBehavior drinkBehavior;
+    private FillUpEnergyBehavior eatBehavior;
+    private FillUpEnergyBehavior drinkBehavior;
 
     public Duck(String name) {
         this.name = name;
@@ -113,6 +113,14 @@ public abstract class Duck {
 
     public void setWalkBehavior(WalkBehavior walkBehavior) {
         this.walkBehavior = walkBehavior;
+    }
+
+    public FillUpEnergyBehavior getEatBehavior() {
+        return eatBehavior;
+    }
+
+    public FillUpEnergyBehavior getDrinkBehavior() {
+        return drinkBehavior;
     }
 
     public abstract void display();
