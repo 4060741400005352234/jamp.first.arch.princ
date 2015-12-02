@@ -82,6 +82,9 @@ public class DuckController {
             case FLAP_WITH_WINGS:
                 duck.performFlap();
                 break;
+            case EXIT:
+                System.exit(1);
+                break;
         }
     }
 
@@ -102,7 +105,8 @@ public class DuckController {
         WALK("7", "Walk"),
         DRINK("8", "Drink"),
         EAT("9", "Eat"),
-        FLAP_WITH_WINGS("10", "Flap with wings");
+        FLAP_WITH_WINGS("10", "Flap with wings"),
+        EXIT("11", "Exit");
 
         private String commandNumber;
         private String commandDescription;

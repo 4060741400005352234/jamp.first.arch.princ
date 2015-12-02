@@ -23,8 +23,8 @@ public class Main {
             MazeSolver mazeSolver = new MazeSolver(duck, new FileMazeReader("lab.txt"));
             mazeSolver.solveMaze();
 
-//            DuckController duckController = new DuckController(duck, bufferedReader);
-//            duckController.performControl();
+            DuckController duckController = new DuckController(duck, bufferedReader);
+            duckController.performControl();
         } catch (Exception e) {
             log.error(e);
         } finally {
