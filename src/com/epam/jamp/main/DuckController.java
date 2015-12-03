@@ -1,15 +1,11 @@
 package com.epam.jamp.main;
 
 import com.epam.jamp.duck.model.MovableDuck;
-import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class DuckController {
-
-    private static Logger log = Logger.getLogger(DuckController.class);
 
     private MovableDuck duck;
     private BufferedReader bufferedReader;
