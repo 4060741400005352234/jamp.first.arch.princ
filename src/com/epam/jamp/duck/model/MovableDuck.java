@@ -3,7 +3,12 @@ package com.epam.jamp.duck.model;
 import com.epam.jamp.behavior.MovementBehavior;
 import org.apache.log4j.Logger;
 
+import java.util.Arrays;
+import java.util.List;
+
 public abstract class MovableDuck extends Duck implements MovementBehavior {
+
+    public static final List<DuckPosition> EATING_AVAILABLE_POSITIONS = Arrays.asList(DuckPosition.FLYING, DuckPosition.WALKING);
 
     private static Logger log = Logger.getLogger(MovableDuck.class);
 
@@ -65,7 +70,7 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
 
     @Override
     public void performEat() {
-        if (getEatBehavior() != null && !isSwimmingNow()) {
+        if (getEatBehavior() != null && EATING_AVAILABLE_POSITIONS.contains(getPosition())) {
             getEatBehavior().fillUp();
             allowNextMovements();
         } else {
@@ -76,7 +81,7 @@ public abstract class MovableDuck extends Duck implements MovementBehavior {
     @Override
     public void performDrink() {
         if (getDrinkBehavior() != null) {
-            if (isSwimmingNow()) {
+            if (DuckPosition.SWIMMING.equals(getPosition())) {
                 getDrinkBehavior().fillUp();
                 allowNextMovements();
             } else {

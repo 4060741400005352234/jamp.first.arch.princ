@@ -8,7 +8,7 @@ public abstract class Duck {
     private static Logger log = Logger.getLogger(Duck.class);
 
     private String name;
-    private boolean swimmingNow;
+    private DuckPosition position;
     private QuackBehavior quackBehavior;
     private FlapBehavior flapBehavior;
     private SwimBehavior swimBehavior;
@@ -19,6 +19,7 @@ public abstract class Duck {
 
     public Duck(String name) {
         this.name = name;
+        position = DuckPosition.WALKING;
 }
 
     public void performQuack() {
@@ -48,7 +49,7 @@ public abstract class Duck {
     public void performSwim() {
         if (swimBehavior != null) {
             swimBehavior.swim();
-            swimmingNow = true;
+            position = DuckPosition.SWIMMING;
         } else {
             //System.out.println("Duck can't swim.");
             log.info("Duck can't swim.");
@@ -58,7 +59,7 @@ public abstract class Duck {
     public void performWalk() {
         if (walkBehavior != null) {
             walkBehavior.walk();
-            swimmingNow = false;
+            position = DuckPosition.WALKING;
         } else {
             //System.out.println("Duck can't walk.");
             log.info("Duck can't walk.");
@@ -68,7 +69,7 @@ public abstract class Duck {
     public void performFly() {
         if (flyBehavior != null) {
             flyBehavior.fly();
-            swimmingNow = false;
+            position = DuckPosition.FLYING;
         } else {
             //System.out.println("Duck can't fly.");
             log.info("Duck can't fly.");
@@ -79,12 +80,8 @@ public abstract class Duck {
         return name;
     }
 
-    protected void setSwimmingNow(boolean swimmingNow) {
-        this.swimmingNow = swimmingNow;
-    }
-
-    protected boolean isSwimmingNow() {
-        return swimmingNow;
+    protected DuckPosition getPosition() {
+        return position;
     }
 
     public void setQuackBehavior(QuackBehavior quackBehavior) {

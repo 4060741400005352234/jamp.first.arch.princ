@@ -4,10 +4,8 @@ import com.epam.jamp.duck.model.MovableDuck;
 
 public abstract class DuckCreator {
 
-    protected MovableDuck duck;
-
     public MovableDuck createDuck(final String name) {
-        duck = create(name);
+        MovableDuck duck = create(name);
         provideDuckWithBehavior(duck);
         return duck;
     }

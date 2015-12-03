@@ -11,7 +11,7 @@ public class MovableDuckFactory implements DuckFactory {
     @Override
     public MovableDuck createDuck(String name, String type) {
         DuckType duckType = DuckType.resolveType(type);
-        return duckType != null ? duckType.getDuckCreator().createDuck(name) : null;
+        return duckType.getDuckCreator().createDuck(name);
     }
 
     private enum DuckType {
@@ -26,7 +26,7 @@ public class MovableDuckFactory implements DuckFactory {
             this.duckCreator = duckCreator;
         }
 
-        public DuckCreator getDuckCreator() {
+        private DuckCreator getDuckCreator() {
             return duckCreator;
         }
 
