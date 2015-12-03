@@ -105,17 +105,20 @@ public class MazeSolver {
 
     private boolean valid(int row, int column) {
         boolean result = false;
-        if (row >= 0 && row < grid.length &&  column >= 0 && column < grid[0].length)
-            if (FREE_WAY_SIGN.equals(grid[row][column]) || EXIT_POINT.equals(grid[row][column]))
+        if (row >= 0 && row < grid.length &&  column >= 0 && column < grid[0].length) {
+            if (FREE_WAY_SIGN.equals(grid[row][column]) || EXIT_POINT.equals(grid[row][column])) {
                 result = true;
+            }
+        }
         return result;
     }
 
     public void printMaze() {
         System.out.println();
-        for (int row = 0; row < grid.length; row++) {
-            for (int column = 0; column < grid[row].length; column++)
-                System.out.print(Constant.SPACE + grid[row][column] + Constant.SPACE);
+        for (String[] aGrid : grid) {
+            for (String anAGrid : aGrid) {
+                System.out.print(Constant.SPACE + anAGrid + Constant.SPACE);
+            }
             System.out.println();
         }
         System.out.println();

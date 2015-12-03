@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00e337c-a26a-4656-a165-7312ed337e2d" name="Default" comment="6st day. Maze solving">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/epam/jamp/duck/model/DuckPosition.java" />
       <change type="DELETED" beforePath="D:\GIT\gmail\jamp.first.arch.princ\out\production\jamp.first.arch.princ\com\epam\jamp\duck\factrory\MovableDuckFactory$1.class" afterPath="" />
       <change type="DELETED" beforePath="D:\GIT\gmail\jamp.first.arch.princ\out\production\jamp.first.arch.princ\com\epam\jamp\labyrinth\LabyrinthReader.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/Duck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/Duck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$1.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$DuckCommand.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController$DuckCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/DuckController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/creator/DuckCreator.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/creator/DuckCreator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/Main.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/main/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/MovableDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/MovableDuck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory$DuckType.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/factrory/MovableDuckFactory$DuckType.class" />
@@ -16,11 +16,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/NaturalDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/NaturalDuck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/RubberDuck.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/duck/model/RubberDuck.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/behavior/impl/Whistling.class" afterPath="$PROJECT_DIR$/out/production/jamp.first.arch.princ/com/epam/jamp/behavior/impl/Whistling.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/epam/jamp/duck/model/Duck.java" afterPath="$PROJECT_DIR$/src/com/epam/jamp/duck/model/Duck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java" afterPath="$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/epam/jamp/duck/model/MovableDuck.java" afterPath="$PROJECT_DIR$/src/com/epam/jamp/duck/model/MovableDuck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java" afterPath="$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java" afterPath="$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/systemOut.log" afterPath="$PROJECT_DIR$/logs/systemOut.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -48,131 +44,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DuckController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/DuckController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1972">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1972">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="2346">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuckCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuckFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/DuckFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NaturalDuck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/NaturalDuck.java">
+      <file leaf-file-name="FileMazeReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/FileMazeReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="49" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovableDuckFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
+      <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NaturalDuckCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/creator/NaturalDuckCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.23153253" vertical-offset="1337" max-vertical-offset="2397">
+              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovableDuck.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/MovableDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47519293" vertical-offset="827" max-vertical-offset="1734">
-              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-              <folding>
-                <element signature="e#2627#2628#0" expanded="true" />
-                <element signature="e#2651#2652#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2193">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding>
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2002#2003#0" expanded="true" />
-                <element signature="e#2046#2047#0" expanded="true" />
-                <element signature="e#2077#2078#0" expanded="true" />
-                <element signature="e#2142#2143#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2488#2489#0" expanded="true" />
-                <element signature="e#2538#2539#0" expanded="true" />
-                <element signature="e#2600#2601#0" expanded="true" />
-                <element signature="e#2648#2649#0" expanded="true" />
-                <element signature="e#2707#2708#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2815#2816#0" expanded="true" />
-                <element signature="e#2863#2864#0" expanded="true" />
-                <element signature="e#2915#2916#0" expanded="true" />
-                <element signature="e#2949#2950#0" expanded="true" />
-                <element signature="e#3003#3004#0" expanded="true" />
-                <element signature="e#3039#3040#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -230,12 +127,12 @@
         <option value="$PROJECT_DIR$/src/com/epam/jamp/behavior/impl/Whistling.java" />
         <option value="$PROJECT_DIR$/lab.txt" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/main/DuckController.java" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/duck/model/Duck.java" />
         <option value="$PROJECT_DIR$/src/com/epam/jamp/duck/model/MovableDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java" />
       </list>
     </option>
   </component>
@@ -926,7 +823,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449062736645</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="6st day. Refactoring">
+      <created>1449113024386</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1449113024386</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1006,7 +909,8 @@
     <MESSAGE value="4-5st day." />
     <MESSAGE value="4-5st day. Refactor" />
     <MESSAGE value="6st day. Maze solving" />
-    <option name="LAST_COMMIT_MESSAGE" value="6st day. Maze solving" />
+    <MESSAGE value="6st day. Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="6st day. Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,14 +923,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/DuckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2788">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="799">
@@ -1388,14 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
@@ -1412,49 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/DuckController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="2380">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/DuckFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/DuckPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="907">
@@ -1463,18 +1308,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/NaturalDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/main/DuckController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1972">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/FileMazeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2193">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.044101432" vertical-offset="1286" max-vertical-offset="2193">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
           <folding>
             <element signature="e#1975#1976#0" expanded="true" />
             <element signature="e#2002#2003#0" expanded="true" />
@@ -1504,12 +1357,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/MovableDuck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47519293" vertical-offset="827" max-vertical-offset="1734">
-          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.49393606" vertical-offset="827" max-vertical-offset="1734">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
             <element signature="e#2627#2628#0" expanded="true" />
             <element signature="e#2651#2652#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/MovableDuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33737597" vertical-offset="0" max-vertical-offset="907">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/model/NaturalDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018743109" vertical-offset="0" max-vertical-offset="907">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/factrory/DuckFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/duck/creator/DuckCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074972436" vertical-offset="0" max-vertical-offset="907">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/epam/jamp/maze/MazeSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23153253" vertical-offset="1337" max-vertical-offset="2397">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
